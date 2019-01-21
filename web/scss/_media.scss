@@ -1,0 +1,338 @@
+@import "vars";
+
+
+/*==========  Desktop First  ==========*/
+
+// <1200px
+@include media-breakpoint-down(lg) {
+  header {
+    .menu {
+      font-size: 15px;
+
+      li:not(:last-child) {
+        padding-right: 15px;
+      }
+    }
+
+    .phone-number {
+      font-size: 20px;
+    }
+  }
+  .properties .wrap-text .text h5 {
+    font-size: 48px;
+  }
+  .genplan .ph {
+    height: 427px;
+  }
+  .infrastructure-map .ph-map {
+    height: 574px;
+  }
+  #map {
+    height: 700px;
+  }
+}
+
+
+// <992px
+@include media-breakpoint-down(md) {
+  h2 {
+    font-size: 42px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  .callback .title h4 {
+    font-size: 36px;
+  }
+  body p {
+    font-size: 18px;
+  }
+  .banner {
+    .wrap-logo {
+
+      margin-bottom: 30px;
+    }
+
+    .wrap-text h1 {
+      font-size: 50px;
+    }
+  }
+
+  .properties {
+    .typical-btn {
+      margin-top: 50px;
+    }
+
+    .wrap-text {
+      .text {
+        h5 {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+
+  .genplan .ph {
+    height: 317px;
+  }
+  .infrastructure-map .ph-map {
+    height: 425px;
+  }
+  .callback .title p {
+    font-size: 18px;
+  }
+  footer h6 {
+    font-size: 20px;
+  }
+  #map {
+    height: 600px;
+  }
+}
+
+// <768px
+@include media-breakpoint-down(sm) {
+  h3 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  body p {
+    font-size: 17px;
+  }
+  .genplan .ph {
+    height: 296px;
+  }
+  .infrastructure-map .ph-map {
+    height: 265px;
+  }
+  .handset {
+    left: 85vw;
+  }
+  .banner {
+    .wrap-logo {
+      margin-bottom: 20px;
+      max-width: 350px;
+    }
+
+    .wrap-text {
+      h1 {
+        font-size: 31px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  .typical-btn,
+  .properties .typical-btn,
+  .cottage-slider .typical-btn {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+  .callback form button {
+    padding: 15px 35px;
+  }
+  .properties .typical-btn {
+    margin-top: 10px;
+  }
+  .banner .wrap-text {
+    margin-bottom: 35px;
+  }
+  .properties {
+    .wrap-text .text {
+      h5 {
+        padding-bottom: 10px;
+      }
+
+      margin-bottom: 25px;
+    }
+  }
+  .slick-prev, .slick-next {
+    width: 40px;
+    height: 40px;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 40px;
+  }
+  .cottage-slider .slick-next {
+    right: 25px;
+  }
+  .cottage-slider .slick-prev {
+    left: 25px;
+  }
+  .genplan {
+    .wrap-img {
+      margin: 0 40px 20px 40px
+    }
+
+    .wrap-text {
+      margin: 0 40px 30px 40px;
+      font-size: 16px;
+    }
+  }
+  #map {
+    height: 500px;
+  }
+  footer h6 {
+    margin: 30px 0 10px;
+  }
+  .modal {
+    .typical-btn {
+      padding: 15px 30px;
+    }
+  }
+  .ph {
+    margin-bottom: 5px;
+  }
+}
+
+
+// <480px
+@include media-breakpoint-down(s) {
+  .genplan .ph {
+    height: 186px;
+  }
+  .infrastructure-map .ph-map {
+    height: 166px;
+  }
+  .handset {
+    left: 80vw;
+    height: 50px;
+    width: 50px;
+
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .typical-btn {
+    font-size: 15px;
+    white-space: normal;
+  }
+  .genplan {
+    .wrap-img {
+      margin: 0 40px 10px 40px
+    }
+
+    .wrap-text {
+      margin: 0 40px 20px 40px;
+      font-size: 16px;
+    }
+  }
+  .slick-prev, .slick-next {
+    width: 23px;
+    height: 23px;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 23px;
+  }
+  .callback {
+    .title {
+      margin-bottom: 35px;
+
+      h4 {
+        font-size: 28px;
+        margin-bottom: 25px;
+      }
+    }
+
+    form {
+      input {
+        padding: 10px 25px;
+        margin-bottom: 15px;
+      }
+
+      button {
+        padding: 10px 25px;
+      }
+    }
+  }
+  .modal {
+    form {
+      input {
+        padding: 10px 25px;
+        margin-bottom: 15px;
+      }
+
+      button {
+        padding: 10px 25px;
+      }
+    }
+
+    .modal-header {
+      h5 {
+        font-size: 26px;
+        font-weight: 600;
+        margin: 0 0 10px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+  #phoneModal {
+    h5 {
+      font-size: 20px;
+      margin: 0;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
+
+// <320px
+@include media-breakpoint-down(xs) {
+
+}
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@include media-breakpoint-up(sm) {
+  #phoneModal {
+    .modal-dialog {
+      max-width: 350px;
+    }
+  }
+
+}
+
+// ≤768px
+@include media-breakpoint-up(md) {
+
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+  header {
+    display: none;
+  }
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+  .cottage-slider .slick-prev:before,
+  .cottage-slider .slick-next:before {
+    color: rgb(107, 107, 107);
+  }
+  .cottage-slider .slick-prev {
+    left: -75px;
+  }
+  [dir='rtl'] .cottage-slider .slick-prev {
+    right: -75px;
+  }
+  .cottage-slider .slick-next {
+    right: -75px;
+  }
+  [dir='rtl'] .cottage-slider .slick-next {
+    left: -75px;
+  }
+}
+
+

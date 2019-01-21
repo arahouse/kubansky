@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>КубаньSky</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" href="img/favicon/favicon.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="img/favicon/apple-touch-icon-128x128.png">
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+
+    <meta name="cmsmagazine" content="e3ff9d1a24129546a93b27de22647307" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/main.min.css">
+
+
+</head>
+
+<body>
+
+<header>
+    <div class="container d-none d-lg-block">
+        <div class="row justify-content-center wrap-header">
+            <div class="col-md-3 wrap-logo">
+                <a class="logo" href="#banner">
+                    <img src="img/KSlogo2.png" width="200" height="45">
+                </a>
+
+            </div>
+            <div class="col-md-6 wrap-menu">
+                <ul class="menu">
+                    <li><a href="#about">О поселке</a></li>
+                    <li><a href="#genplan">Генплан</a></li>
+                    <li><a href="#cottage">Коттеджи</a></li>
+                    <li><a href="#map">Карта</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 wrap-phone">
+                <a class="phone-number" href="tel:+79183701316">+7 (918) 370-13-16</a>
+            </div>
+        </div>
+    </div>
+    <nav id="mobile-nav" class="header-nav-mobile d-lg-none">
+        <div class="wrap-nav">
+<!--            <div class="wrap-drop-logo">
+                <img src="img/KSlogo.png" width="200" height="45">
+            </div>-->
+            <div id="menu-burger" class="header-nav-mobile-burger">
+                <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="80"
+                     onclick="this.classList.toggle('active')">
+                    <path class="line top"
+                          d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path>
+                    <path class="line middle"
+                          d="m 30,50 h 40"></path>
+                    <path class="line bottom"
+                          d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path>
+                </svg>
+            </div>
+        </div>
+        <div id="close-menu" class="header-nav-mobile-close"></div>
+        <ul class="drop-menu">
+            <li class="wrap-drop-logo">
+                <a href="#banner"><img src="img/KSlogo.png" width="150" height="34" alt="logo"></a>
+            </li>
+            <li><a href="#about">О поселке</a></li>
+            <li><a href="#genplan">Генплан</a></li>
+            <li><a href="#cottage">Коттеджи</a></li>
+            <li><a href="#map">Карта</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+            <li><a class="phone-number" href="tel:+79183701316">+7 (918) 370-13-16</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div id="banner" class="banner">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="wrap-logo">
+                        <img src="img/KSlogo2.png" width="100%" height="auto" alt="logo">
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="wrap-text">
+                        <h1>Старт продаж совсем скоро!</h1>
+                        <p>Успей узнать всю информацию до открытия продаж.</p>
+                        <p> Получи специальную цену на коттеджи на старте!</p>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="btn typical-btn" data-toggle="modal" data-target="#callbackModal">Узнать специальные условия</div>
+                </div>
+            </div>
+        </div>
+        <div class="handset" data-toggle="modal" data-target="#phoneModal">
+            <svg class="t651__icon" style="fill:#ffffff;" xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 19.3 20.1"><desc>Call</desc><path d="M4.6 7.6l-.5-.9 2-1.2L4.6 3l-2 1.3-.6-.9 2.9-1.7 2.6 4.1"></path><path d="M9.9 20.1c-.9 0-1.9-.3-2.9-.9-1.7-1-3.4-2.7-4.7-4.8-3-4.7-3.1-9.2-.3-11l.5.9C.2 5.7.4 9.7 3 13.9c1.2 2 2.8 3.6 4.3 4.5 1.1.6 2.7 1.1 4.1.3l1.9-1.2L12 15l-2 1.2c-1.2.7-2.8.3-3.5-.8l-3.2-5.2c-.7-1.2-.4-2.7.8-3.5l.5.9c-.7.4-.9 1.3-.5 2l3.2 5.2c.4.7 1.5.9 2.2.5l2.8-1.7 2.6 4.1-2.8 1.7c-.7.5-1.4.7-2.2.7zM13.7 11.3l-.9-.3c.4-1.1.2-2.2-.4-3.1-.6-1-1.7-1.6-2.8-1.7l.1-1c1.5.1 2.8.9 3.6 2.1.7 1.2.9 2.7.4 4z"></path><path d="M16.5 11.9l-1-.3c.5-1.8.2-3.7-.8-5.3-1-1.6-2.7-2.6-4.7-2.9l.1-1c2.2.3 4.2 1.5 5.4 3.3 1.2 1.9 1.6 4.1 1 6.2z"></path><path d="M18.9 12.5l-1-.3c.7-2.5.2-5.1-1.1-7.2-1.4-2.2-3.7-3.6-6.3-4l.1-1c2.9.4 5.4 2 7 4.4 1.6 2.4 2.1 5.3 1.3 8.1z"></path></svg>
+        </div>
+    </div>
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>О поселке</h3>
+                    <p>КубаньSKY – это загородный поселок комфорт-класса в Белореченском районе Краснодарского края. Мы
+                        объединили все плюсы месторасположения, оставаясь в стороне от суеты мегаполисов. Мы создаем
+                        собственную деловую зону для того, чтобы вы всегда держали руку на пульсе. Мы сохранили для вас
+                        первозданную природу, добавив инновационные технологии в строительстве.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="genplan" class="genplan">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 text-center">
+                    <div class="wrap-img">
+                        <img src="img/icons/ecology.svg" alt="">
+                    </div>
+                    <div class="wrap-text">
+                        <span>Прекрасная эколокия</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-center">
+                    <div class="wrap-img">
+                        <img src="img/icons/location.svg" alt="">
+                    </div>
+                    <div class="wrap-text">
+                        <div class="span">
+                            Удобное месторасположение
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-center">
+                    <div class="wrap-img">
+                        <img src="img/icons/hat.svg" alt="">
+                    </div>
+                    <div class="wrap-text">
+                        <div class="span">
+                            Школа и детские сады
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-center">
+                    <div class="wrap-img">
+                        <img src="img/icons/hand.svg" alt="">
+                    </div>
+                    <div class="wrap-text">
+                        <div class="span">
+                            Сервисная служба
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-center">
+                    <div class="wrap-img">
+                        <img src="img/icons/planet.svg" alt="">
+                    </div>
+                    <div class="wrap-text">
+                        <div class="span">
+                            Высокоскоростной интернет
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-center">
+                    <div class="wrap-img">
+                        <img src="img/icons/camera.svg" alt="">
+                    </div>
+                    <div class="wrap-text">
+                        <div class="span">
+                            Видеонаблюдение и охрана
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-center">
+                    <div class="wrap-img">
+                        <img src="img/icons/technology.svg" alt="">
+                    </div>
+                    <div class="wrap-text">
+                        <div class="span">
+                            Современные технологии
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-center">
+                    <div class="wrap-img">
+                        <img src="img/icons/comerc.svg" alt="">
+                    </div>
+                    <div class="wrap-text">
+                        <div class="span">
+                            Торговая и деловая инфраструктура
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-8 col-s-12"><a class="fancybox" data-fancybox="gallery" href="img/photo/1.jpg">
+                    <div class="ph ph-1"></div>
+                </a></div>
+                <div class="col-md-4 col-s-12"><a class="fancybox" data-fancybox="gallery" href="img/photo/2.jpg">
+                    <div class="ph ph-2"></div>
+                </a></div>
+                <div class="col-md-4 col-s-12"><a class="fancybox" data-fancybox="gallery" href="img/photo/3.jpg">
+                    <div class="ph ph-3"></div>
+                </a></div>
+                <div class="col-md-8 col-s-12"><a class="fancybox" data-fancybox="gallery" href="img/photo/4.jpg">
+                    <div class="ph ph-4"></div>
+                </a></div>
+                <div class="col-md-8 col-s-12"><a class="fancybox" data-fancybox="gallery" href="img/photo/5.jpg">
+                    <div class="ph ph-5"></div>
+                </a></div>
+                <div class="col-md-4 col-s-12"><a class="fancybox" data-fancybox="gallery" href="img/photo/6.jpg">
+                    <div class="ph ph-6"></div>
+                </a></div>
+                <div class="col-md-4 col-s-12"><a class="fancybox" data-fancybox="gallery" href="img/photo/7.jpg">
+                    <div class="ph ph-7"></div>
+                </a></div>
+                <div class="col-md-8 col-s-12"><a class="fancybox" data-fancybox="gallery" href="img/photo/8.jpg">
+                    <div class="ph ph-8"></div>
+                </a></div>
+                <div class="col-md-12 col-s-12"><a class="fancybox" data-fancybox="gallery" href="img/photo/9.jpg">
+                    <div class="ph ph-9"></div>
+                </a></div>
+            </div>
+        </div>
+    </div>
+    <div class="infrastructure">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>Инфраструктура</h3>
+                    <p>Детские сады, школа, поликлиника, спортивный центр и сооружения для занятий спортом на улице, а
+                        также торгово-развлекательный центр и деловая зона обеспечат полноценные интересные будни и
+                        выходные для взрослых и детей. Асфальтированные дороги, пешеходные и велосипедные дорожки,
+                        зелёные зоны отдыха и парки с фонтанами, где можно отдохнуть и расслабиться. Охрана,
+                        видеонаблюдение и умное светодиодное освещение обеспечат комфорт и безопасность. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="infrastructure-map">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"><a class="fancybox" data-fancybox="gallery" href="img/BKmap.png">
+                    <div class="ph ph-map"></div>
+                </a></div>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="wrapper-slide">
+            <div><img src="img/11.jpg" alt=""></div>
+            <div><img src="img/22.jpg" alt=""></div>
+            <div><img src="img/33.jpg" alt=""></div>
+        </div>
+    </div>
+    <div class="properties">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="wrap-text">
+                        <div class="text">
+                            <h5>1,5 часа</h5>
+                            <p>До Черного моря и Кавказских гор</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="wrap-text">
+                        <div class="text">
+                            <h5>от 8 соток</h5>
+                            <p>Размер участка под коттедж</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="wrap-text">
+                        <div class="text">
+                            <h5>35 000 ₽</h5>
+                            <p>Стартовая цена за квадратный метр без отделки</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="btn typical-btn" data-toggle="modal" data-target="#callbackModal">Узнать подробнее</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cottage" class="cottage">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 text-center">
+                    <h2>Коттеджи</h2>
+                    <h3>от 35 000 ₽ за м2</h3>
+                    <p>Двухэтажные дома площадью от 96 м² до 170 м² с гаражом и террасой со светлыми комнатами и
+                        большими окнами в пол. Прилегающая частная территория от 8 соток. Качественные материалы и
+                        современные технологии.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cottage-slider">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 clo-lg-10 col-md-12 wrapper-slide ">
+                    <div><img src="img/photo/4.jpg" alt=""></div>
+                    <div><img src="img/photo/6.jpg" alt=""></div>
+                    <div><img src="img/photo/3.jpg" alt=""></div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="btn typical-btn" data-toggle="modal" data-target="#callbackModal">Узнать подробнее</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="map"></div>
+    <div class="nature">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>Удобное расположение на природе</h3>
+                    <p>Уникальное месторасположение посёлка позволит его жителям всего за 1,5 часа добраться как до
+                        побережья Чёрного моря, так и до гор Кавказа. За то же время можно добраться до столицы Кубани -
+                        Краснодара. Плюсы распространяются и на близость к источникам минеральных термальных вод и
+                        целебных грязей, полезных для людей всех возрастов.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="callback">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="title">
+                        <h4>Добро пожаловать домой!</h4>
+                        <p>Если у Вас есть вопрос - задайте его нам, и мы ответим в ближайшее время</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-12 wrap-callback-form">
+                    <form>
+                        <div class="success"><span>Спасибо за вашу заявку!</span></div>
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="KubanSKY">
+                        <input type="hidden" name="form_subject" value="Заявка с сайта">
+                        <!-- END Hidden Required Fields -->
+
+                        <input type="text" name="Имя" placeholder="Имя" required><br>
+                        <input type="email" name="E-mail" placeholder="ivan@mail.ru" required><br>
+                        <input type="text" name="Вопрос" placeholder="Задайте свой вопрос" required><br>
+                        <button class="btn typical-btn">Задать вопрос</button>
+                        <p>Нажимая «Задать вопрос», вы соглашаетесь с условиями обработки данных</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer id="contacts">
+    <div class="container">
+        <div class="row">
+
+                <div class="col-md-4 text-center">
+                    <h6>Новосибирский офис</h6>
+                    <p><b>г. Новосибирск</b></p>
+                    <p>3-й переулок Крашенинникова, дом 3</p>
+                    <p>1 этаж, офис 101</p>
+                    <p>+7 (383) 363-99-90</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h6>Белореченский офис</h6>
+                    <p><b>г. Белореченск</b></p>
+                    <p>ул. Ленина, дом 115а</p>
+                    <p>3 этаж, офис 5</p>
+                    <p>+7 (918) 370-13-16</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h6>Застройщик</h6>
+                    <p>Группа компаний SKY Group</p>
+                    <a href="http://www.gk-sky.com">www.gk-sky.com</a><br>
+                    <a href="mailto:sales@gk-sky.com">sales@gk-sky.com</a>
+                </div>
+
+
+        </div>
+    </div>
+    <div class="social text-center">
+        <div class="wrap-social">
+            <a href="https://www.facebook.com/SKY-Group-1614663718752223/" target="_blank" rel="nofollow">
+                <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+                     viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve"><desc>Facebook</desc>
+                    <path style="fill:#ffffff;"
+                          d="M47.761,24c0,13.121-10.638,23.76-23.758,23.76C10.877,47.76,0.239,37.121,0.239,24c0-13.124,10.638-23.76,23.764-23.76C37.123,0.24,47.761,10.876,47.761,24 M20.033,38.85H26.2V24.01h4.163l0.539-5.242H26.2v-3.083c0-1.156,0.769-1.427,1.308-1.427h3.318V9.168L26.258,9.15c-5.072,0-6.225,3.796-6.225,6.224v3.394H17.1v5.242h2.933V38.85z"></path></svg>
+            </a>
+            <a href="http://vk.com/gk_sky" target="_blank" rel="nofollow">
+                <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px"
+                     viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve"><desc>VK</desc>
+                    <path style="fill:#ffffff;"
+                          d="M47.761,24c0,13.121-10.639,23.76-23.76,23.76C10.878,47.76,0.239,37.121,0.239,24c0-13.123,10.639-23.76,23.762-23.76C37.122,0.24,47.761,10.877,47.761,24 M35.259,28.999c-2.621-2.433-2.271-2.041,0.89-6.25c1.923-2.562,2.696-4.126,2.45-4.796c-0.227-0.639-1.64-0.469-1.64-0.469l-4.71,0.029c0,0-0.351-0.048-0.609,0.106c-0.249,0.151-0.414,0.505-0.414,0.505s-0.742,1.982-1.734,3.669c-2.094,3.559-2.935,3.747-3.277,3.524c-0.796-0.516-0.597-2.068-0.597-3.171c0-3.449,0.522-4.887-1.02-5.259c-0.511-0.124-0.887-0.205-2.195-0.219c-1.678-0.016-3.101,0.007-3.904,0.398c-0.536,0.263-0.949,0.847-0.697,0.88c0.31,0.041,1.016,0.192,1.388,0.699c0.484,0.656,0.464,2.131,0.464,2.131s0.282,4.056-0.646,4.561c-0.632,0.347-1.503-0.36-3.37-3.588c-0.958-1.652-1.68-3.481-1.68-3.481s-0.14-0.344-0.392-0.527c-0.299-0.222-0.722-0.298-0.722-0.298l-4.469,0.018c0,0-0.674-0.003-0.919,0.289c-0.219,0.259-0.018,0.752-0.018,0.752s3.499,8.104,7.573,12.23c3.638,3.784,7.764,3.36,7.764,3.36h1.867c0,0,0.566,0.113,0.854-0.189c0.265-0.288,0.256-0.646,0.256-0.646s-0.034-2.512,1.129-2.883c1.15-0.36,2.624,2.429,4.188,3.497c1.182,0.812,2.079,0.633,2.079,0.633l4.181-0.056c0,0,2.186-0.136,1.149-1.858C38.281,32.451,37.763,31.321,35.259,28.999"></path></svg>
+            </a>
+            <a href="https://instagram.com/sky_group_nsk/" target="_blank" rel="nofollow">
+                <svg class="t-sociallinks__svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 30 30" xml:space="preserve"><desc>Instagram</desc><path
+                        style="fill:#ffffff;"
+                        d="M15,11.014 C12.801,11.014 11.015,12.797 11.015,15 C11.015,17.202 12.802,18.987 15,18.987 C17.199,18.987 18.987,17.202 18.987,15 C18.987,12.797 17.199,11.014 15,11.014 L15,11.014 Z M15,17.606 C13.556,17.606 12.393,16.439 12.393,15 C12.393,13.561 13.556,12.394 15,12.394 C16.429,12.394 17.607,13.561 17.607,15 C17.607,16.439 16.444,17.606 15,17.606 L15,17.606 Z"></path><path
+                        style="fill:#ffffff;"
+                        d="M19.385,9.556 C18.872,9.556 18.465,9.964 18.465,10.477 C18.465,10.989 18.872,11.396 19.385,11.396 C19.898,11.396 20.306,10.989 20.306,10.477 C20.306,9.964 19.897,9.556 19.385,9.556 L19.385,9.556 Z"></path><path
+                        style="fill:#ffffff;"
+                        d="M15.002,0.15 C6.798,0.15 0.149,6.797 0.149,15 C0.149,23.201 6.798,29.85 15.002,29.85 C23.201,29.85 29.852,23.202 29.852,15 C29.852,6.797 23.201,0.15 15.002,0.15 L15.002,0.15 Z M22.666,18.265 C22.666,20.688 20.687,22.666 18.25,22.666 L11.75,22.666 C9.312,22.666 7.333,20.687 7.333,18.28 L7.333,11.734 C7.333,9.312 9.311,7.334 11.75,7.334 L18.25,7.334 C20.688,7.334 22.666,9.312 22.666,11.734 L22.666,18.265 L22.666,18.265 Z"></path></svg>
+            </a>
+        </div>
+    </div>
+    <div class="oferta text-center">
+        <p>
+            Информация на сайте не является публичной офертой.
+        </p>
+    </div>
+
+</footer>
+<!--Модальные окна-->
+
+<div class="modal fade" id="callbackModal" tabindex="-1" role="dialog" aria-labelledby="callbackModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title " id="ModalTitle">Получить консультацию</h5>
+                <p class="">Заполните контактные данные</p>
+
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="success"><span>Спасибо за вашу заявку!</span></div>
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="KubanSKY">
+                    <input type="hidden" name="form_subject" value="Заявка с сайта">
+                    <!-- END Hidden Required Fields -->
+
+                    <input type="text" name="Имя" placeholder="Имя" required><br>
+                    <input type="tel" name="Телефон" pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}" placeholder="+7-xxx-xxx-xx-xx" required><br>
+                    <button class="btn typical-btn">Оставить заявку</button>
+                    <p>Нажимая «Оставить заявку», вы соглашаетесь с условиями обработки данных</p>
+                </form>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="phoneModal" tabindex="-1" role="dialog" aria-labelledby="phoneModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Оставьте свой номер телефона и мы перезвоним</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="success"><span>Спасибо за вашу заявку!</span></div>
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="KubanSKY">
+                    <input type="hidden" name="form_subject" value="Заявка с сайта">
+                    <!-- END Hidden Required Fields -->
+
+                    <input type="tel" name="Телефон" pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}" placeholder="+7-xxx-xxx-xx-xx" required><br>
+                    <button class="btn typical-btn">Перезвоните мне</button>
+                </form>
+                <p>Или можете позвонить нам самостоятельно:<br>
+                    <b>+7 (383) 363-99-90</b></p>
+                <p>Нажимая «Перезвоните мне», вы соглашаетесь с условиями обработки данных</p>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=<08fbd952-3453-4bb1-b486-b215f61cc9fb>&lang=ru_RU" type="text/javascript">
+</script>
+<script src="js/scripts.min.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131456032-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131456032-1');
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(50125480, "init", {
+        id:50125480,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/50125480" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+</body>
+</html>
+
+
+
